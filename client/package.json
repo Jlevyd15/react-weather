@@ -1,0 +1,26 @@
+{
+  "name": "react-weather",
+  "version": "1.0.0",
+  "description": "weather react application ",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./app/index.html"
+  },
+  "author": "Jeremy Levy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.8.6",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-dom": "^16.8.6",
+    "react-hot-loader": "^4.8.3",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.4.1"
+  }
+}
